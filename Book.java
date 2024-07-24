@@ -1,11 +1,11 @@
 class Book{
-  String id;
+  int id;
   String title;
   String author;
   String category;
   boolean isAvailable;
 
-  public Book(String id, String title, String author, String category){
+  public Book(int id, String title, String author, String category){
     this.id = id;
     this.title = title;
     this.author = author;
